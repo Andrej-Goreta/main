@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Virteom Survey Page</title>
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+    <body>
+        <h1>Virteom Survey Page</h1>
+        <img src="../img/post-call-surveys.jpg" alt="Your Opinion Matters image">
+        <div id="message">
+            <p>Thank you for using Virteom for your business,marketing, and sales needs to help grow your business.
+               We will help maintain your newly created or updated website, so that your customers are satisfied with the presentation and simplicity.
+               Please rate and comment below your satisfaction with our website. Also, if you are satisfied with Virteom's work, look into the various boosters we have for you.
+               The boosters will help your business boom better than before!</p>
+            
+        </div>
+        <form action="http://127.0.0.1:5500/html/index.html">
+        <div id="questions_and_answers">
+        <h4 id="questions_section">Survey Questions</h4>    
+        <div id="survey_questions">
+         <ol>
+             <li>Were you satisfied with the information on Virteom's website?</li>
+                <input value="Satisfied" type="radio" name="question1" required>Satisfied
+                <input value="Moderate" type="radio" name="question1" required>Moderate
+                <input value="Dissatisfied" type="radio" name="question1" required>Dissatisfied
+             <li>How confident do you feel that Virteom will accomplish your needs?</li>
+                <input value="None" type="radio" name="question2" required>None
+                <input value="Low" type="radio" name="question2" required>Low
+                <input value="Medium" type="radio" name="question2" required>Medium
+                <input value="High" type="radio" name="question2" required>High
+             <li>Would you recommend us to other businesses?</li>
+                <input value="Yes" type="radio" name="question3" required>Yes
+                <input value="No" type="radio" name="question3" required>No 
+         </ol> 
+        </div>
+        
+         <div id="comment_box">
+             <h2>Additional Comment (Optional and max 250 characters):</h2>
+             <textarea id="comment" name="comment" rows="10" cols="60" maxlength="250"></textarea>
+         </div>
+         <h4 id="survey_result">Suvery Answers and Comment</h4>  
+         <div id="show_answers"></div>
+         <div id="show_comment"></div>
+            <input type="submit" id="submit_button">
+        </div>
+        </form>
+        <script src="../js/webPage.js"></script>
+    </body>
+    <footer>Thank You For Your Opinion Because It Does Matter!</footer>
+</html>
